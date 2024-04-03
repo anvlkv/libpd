@@ -1702,6 +1702,7 @@
 					"-DHAVE_ALLOCA_H",
 					"-DHAVE_MACHINE_ENDIAN_H",
 					"-DLIBPD_EXTRA",
+					"-DPDTHREADS",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -1756,6 +1757,7 @@
 					"-DHAVE_ALLOCA_H",
 					"-DHAVE_MACHINE_ENDIAN_H",
 					"-DLIBPD_EXTRA",
+					"-DPDTHREADS",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
