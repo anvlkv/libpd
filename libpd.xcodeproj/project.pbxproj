@@ -460,21 +460,7 @@
 		7EF1A96F29207CA100859664 /* s_inter_gui.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1A96B29207CA100859664 /* s_inter_gui.c */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		FA2053AC2BD56BBB00B8D9F8 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2052422BD56BA600B8D9F8 /* buffer.c */; };
-		FA2053AD2BD56BBD00B8D9F8 /* mifi.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2052462BD56BA600B8D9F8 /* mifi.c */; };
-		FA2053AE2BD56BBF00B8D9F8 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2052472BD56BA600B8D9F8 /* random.c */; };
-		FA2053AF2BD56BC200B8D9F8 /* elsefile.c in Sources */ = {isa = PBXBuildFile; fileRef = FA20524C2BD56BA600B8D9F8 /* elsefile.c */; };
 		FA2053B02BD56BC400B8D9F8 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = FA20524D2BD56BA600B8D9F8 /* magic.c */; };
-		FA2053B12BD56BC600B8D9F8 /* s_elseutf8.c in Sources */ = {isa = PBXBuildFile; fileRef = FA20524E2BD56BA600B8D9F8 /* s_elseutf8.c */; };
-		FA2053B22BD56BE600B8D9F8 /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052432BD56BA600B8D9F8 /* magic.h */; };
-		FA2053B32BD56BE600B8D9F8 /* elsefile.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052442BD56BA600B8D9F8 /* elsefile.h */; };
-		FA2053B42BD56BE600B8D9F8 /* s_elseutf8.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052452BD56BA600B8D9F8 /* s_elseutf8.h */; };
-		FA2053B52BD56BE600B8D9F8 /* else_alloca.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052482BD56BA600B8D9F8 /* else_alloca.h */; };
-		FA2053B62BD56BE600B8D9F8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052492BD56BA600B8D9F8 /* buffer.h */; };
-		FA2053B72BD56BE600B8D9F8 /* OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = FA20524A2BD56BA600B8D9F8 /* OSC.h */; };
-		FA2053B82BD56BE600B8D9F8 /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = FA20524B2BD56BA600B8D9F8 /* kiss_fft.h */; };
-		FA2053B92BD56BE600B8D9F8 /* dirent_msvc.h in Headers */ = {isa = PBXBuildFile; fileRef = FA20524F2BD56BA600B8D9F8 /* dirent_msvc.h */; };
-		FA2053BA2BD56BE600B8D9F8 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052502BD56BA600B8D9F8 /* random.h */; };
-		FA2053BB2BD56BE600B8D9F8 /* mifi.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2052512BD56BA600B8D9F8 /* mifi.h */; };
 		FA2053BC2BD56C0600B8D9F8 /* rescale~.c in Sources */ = {isa = PBXBuildFile; fileRef = FA204E8C2BD56BA400B8D9F8 /* rescale~.c */; };
 		FA2053BD2BD56C0F00B8D9F8 /* sine~.c in Sources */ = {isa = PBXBuildFile; fileRef = FA204EDE2BD56BA500B8D9F8 /* sine~.c */; };
 /* End PBXBuildFile section */
@@ -9203,16 +9189,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2053B22BD56BE600B8D9F8 /* magic.h in Headers */,
-				FA2053B32BD56BE600B8D9F8 /* elsefile.h in Headers */,
-				FA2053B42BD56BE600B8D9F8 /* s_elseutf8.h in Headers */,
-				FA2053B52BD56BE600B8D9F8 /* else_alloca.h in Headers */,
-				FA2053B62BD56BE600B8D9F8 /* buffer.h in Headers */,
-				FA2053B72BD56BE600B8D9F8 /* OSC.h in Headers */,
-				FA2053B82BD56BE600B8D9F8 /* kiss_fft.h in Headers */,
-				FA2053B92BD56BE600B8D9F8 /* dirent_msvc.h in Headers */,
-				FA2053BA2BD56BE600B8D9F8 /* random.h in Headers */,
-				FA2053BB2BD56BE600B8D9F8 /* mifi.h in Headers */,
 				0E82A0AE12EEFE5E0053280E /* PdBase.h in Headers */,
 				5828C8B51409C8C600F8B9AC /* PdDispatcher.h in Headers */,
 				0E8C8DCA1312007F000B9D7A /* PdFile.h in Headers */,
@@ -9667,13 +9643,9 @@
 				FA2053B02BD56BC400B8D9F8 /* magic.c in Sources */,
 				FA2053AC2BD56BBB00B8D9F8 /* buffer.c in Sources */,
 				0E82A04112EEFDEE0053280E /* d_dac.c in Sources */,
-				FA2053B12BD56BC600B8D9F8 /* s_elseutf8.c in Sources */,
 				0E82A04212EEFDEE0053280E /* d_delay.c in Sources */,
-				FA2053AF2BD56BC200B8D9F8 /* elsefile.c in Sources */,
-				FA2053AD2BD56BBD00B8D9F8 /* mifi.c in Sources */,
 				0E82A04312EEFDEE0053280E /* d_fft.c in Sources */,
 				FA2053BD2BD56C0F00B8D9F8 /* sine~.c in Sources */,
-				FA2053AE2BD56BBF00B8D9F8 /* random.c in Sources */,
 				FA2053BC2BD56C0600B8D9F8 /* rescale~.c in Sources */,
 				30377F451866680A0026ED3E /* x_array.c in Sources */,
 				0E82A04612EEFDEE0053280E /* d_filter.c in Sources */,
